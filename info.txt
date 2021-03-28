@@ -4,3 +4,8 @@ https://www.youtube.com/user/veenavikraman19/videos
 
 Website/Blogs
 
+
+===================== Classic UI details ======================
+
+Dialog event listener.
+Pass value from html to dialog
