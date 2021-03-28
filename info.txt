@@ -4,6 +4,9 @@ https://www.youtube.com/user/veenavikraman19/videos
 
 Website/Blogs
 
+1: Custom button to sites.html
+http://aemlab.blogspot.com/2019/07/aem-add-view-button-to-view-pages.html
+https://www.linkedin.com/pulse/aem-how-add-custom-button-siteshtml-render-based-paths-vikraman/?trackingId=ldfBaBLeRneDgxrTIsiytQ%3D%3D
 
 ===================== Classic UI details ======================
 
