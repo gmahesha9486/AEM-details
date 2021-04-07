@@ -1,2 +1,2 @@
 # AEM-details
-Keeping all the AEM details in tis repository.
+Keeping all the AEM details in this repository.
