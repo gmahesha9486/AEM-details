@@ -2,6 +2,9 @@ AEM Links
 https://github.com/paulrohrbeck/aem-links
 It has all the links to AEM.
 
+Sightly
+https://github.com/adobe/aem-htl-repl
+
 Youtube Channels
 Tech Talk with Ritesh
 https://www.youtube.com/user/veenavikraman19/videos
