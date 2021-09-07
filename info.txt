@@ -9,6 +9,10 @@ Youtube Channels
 Tech Talk with Ritesh
 https://www.youtube.com/user/veenavikraman19/videos
 
+AEM in Action - Multiple implementation of the Services
+https://www.youtube.com/watch?v=aTAb3erm1sU
+
+
 Website/Blogs
 
 1: Custom button to sites.html
