@@ -1,3 +1,7 @@
+Documentation to AEM components
+https://medium.com/@surajkamdi/adding-documentation-for-aem-components-ab0bced28c26
+
+
 AEM Links
 https://github.com/paulrohrbeck/aem-links
 It has all the links to AEM.
