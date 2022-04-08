@@ -3,6 +3,7 @@ https://medium.com/@surajkamdi/adding-documentation-for-aem-components-ab0bced28
 
 
 AEM Links
+https://aemlab.blogspot.com/2019/07/aem-rte-custom-plugins-1.html
 https://github.com/paulrohrbeck/aem-links
 It has all the links to AEM.
 
