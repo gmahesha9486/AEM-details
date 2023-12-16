@@ -1,0 +1,32 @@
+Run application
+
+mvn clean install -DskipTests
+
+mvn clean install -DskipTests -PautoInstallPackage
+
+--------------------------
+
+get properties from jcr:content
+
+Resource res = resourceResolver.getResource(currentPagePath);  // currentPagePath = /content/aemgeeks/us/en/home
+String test = Optional.ofNullable(res.adaptTo(Page.class).getTemplate().getPath()).orElse("");
+
+get childresource from path
+
+Iterator<Resource>itr = res.listChildren();
+         String val="";
+        while(itr.hasNext()){
+            Resource resourc = itr.next();
+            ValueMap value = resourc.getValueMap();
+            val = value.get(("jcr:title"),String.class);
+        }
+		
+Resource res = resourceResolver.getResource(currentPagePath+"/jcr:content");
+Article obj = res.adaptTo(Article.class);		
+	 
+check for Sling Model Factory
+	
+------------------------------
+
+
+
