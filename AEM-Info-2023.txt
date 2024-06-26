@@ -34,3 +34,19 @@ https://medium.com/@imrul001/comprehensive-guide-setting-up-saml-sso-between-key
 Author: A H M Imrul Hasan
 
 
+Search Feature
+https://medium.com/activate-aem/enhancing-aem-lucene-search-advanced-techniques-for-improved-search-functionality-part-1-effbbc4ab5e9
+
+
+
+AEM on-prem to cloud
+
+https://medium.com/@toimrank/aem-on-prem-to-cloud-service-migration-cc0a9b9c574a
+
+
+https://www.linkedin.com/feed/update/urn:li:activity:7115778158435438593/
+
+ 
+ACS common
+https://www.linkedin.com/pulse/unlock-real-time-aem-development-introducing-acs-commons-goyal-ng4jf/?trackingId=St0eelLKyQBNJmrDZyGR%2Fw%3D%3D
+
