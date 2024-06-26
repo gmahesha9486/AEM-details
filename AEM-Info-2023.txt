@@ -27,6 +27,10 @@ Article obj = res.adaptTo(Article.class);
 check for Sling Model Factory
 	
 ------------------------------
+AEM Useful Links
 
+SSO
+https://medium.com/@imrul001/comprehensive-guide-setting-up-saml-sso-between-keycloak-and-aem-0b134cdaac58
+Author: A H M Imrul Hasan
 
 
