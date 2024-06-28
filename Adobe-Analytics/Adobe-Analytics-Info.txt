@@ -1,0 +1,10 @@
+Report Suite in Adobe Analytics:
+There are three types analytics reports, Which are predictive, Prescriptive and Descriptive. In same manner in Adobe Analytics 
+a. Global Report Suite
+b. Virtual Report Suite
+c. Roll out Report Suite 
+
+https://www.linkedin.com/in/ramarajm/
+
+----------------------------
+
