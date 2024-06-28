@@ -50,3 +50,7 @@ https://www.linkedin.com/feed/update/urn:li:activity:7115778158435438593/
 ACS common
 https://www.linkedin.com/pulse/unlock-real-time-aem-development-introducing-acs-commons-goyal-ng4jf/?trackingId=St0eelLKyQBNJmrDZyGR%2Fw%3D%3D
 
+
+Adobe Summit AEM link
+https://business.adobe.com/summit/2024/sessions/adobe-experience-manager-sites-top-innovations-vs420.html?trackingid=TPQVL2LC&mv=email&s_rtid=7015Y0000048BjLQAU&s_iid=7015Y000003tBEjQAM&sfid=0035Y00005QeEaOQAV&acctid=0015Y00004caHvDQAU&ecp=2651&mkt_tok=MzYwLUtDSS04MDQAAAGT--Dvx7FEDGpC0o7EVnVYzmEqlp-DhWJEOt7yCV7TqLjIkUzFbZQXEUVE7_Up0g9Jh8qNjueZMETzXed_LYYIGBQLPVmezZdFhU79xwpN2Jky91cjXBiU
+
