@@ -62,7 +62,12 @@ https://techrevel.blog/2024/06/09/aem-reverse-proxy/
 Aanchal Sikka
 
 --------------------------------
+Reverse Proxy concept in AEM
 
+https://techrevel.blog/2024/06/09/aem-reverse-proxy/
+
+
+------------------------
 Queries, Terminologies
 
 Adobe AppBuilder
