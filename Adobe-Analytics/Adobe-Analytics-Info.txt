@@ -7,4 +7,13 @@ c. Roll out Report Suite
 https://www.linkedin.com/in/ramarajm/
 
 ----------------------------
+Adobe Analytics Workspace is providing Dashboard result. It is mix matching to collecting of key metrics.
+A. Dimensions
+B. Metrics
+C. Segments 
+D. Time Range
+
+--------------------------------------
+
+https://medium.com/@ramarajmsu/basic-understanding-of-adobe-analytics-reporting-c8b3aba71991
 

@@ -57,6 +57,14 @@ https://business.adobe.com/summit/2024/sessions/adobe-experience-manager-sites-t
 
 AEM Augs link : get it
 
+
+https://techrevel.blog/2024/06/09/aem-reverse-proxy/
+Aanchal Sikka
+
 --------------------------------
+
+Queries, Terminologies
+
+Adobe AppBuilder
 
 
