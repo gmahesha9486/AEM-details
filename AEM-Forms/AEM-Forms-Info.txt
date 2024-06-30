@@ -1,3 +1,16 @@
 Experience in development of AEM Forms - Adaptive Forms/Fragments.
 Experience in development of AEM Forms OSGi workflows.
 
+-------------------
+
+Day CQ Mail Service
+
+smtp.gmail.com
+465
+
+from address: gmahesha@gmail.com
+SMTP use SSL : Checked
+
+-------------
+Form Data Model
+

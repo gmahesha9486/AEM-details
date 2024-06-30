@@ -67,6 +67,10 @@ Reverse Proxy concept in AEM
 https://techrevel.blog/2024/06/09/aem-reverse-proxy/
 
 
+
+Implementing Cross-Domain Cookie Handling for Seamless API Integration
+https://medium.com/tech-learnings/implementing-cross-domain-cookie-handling-for-seamless-api-integration-9d20635081f7
+
 ------------------------
 Queries, Terminologies
 

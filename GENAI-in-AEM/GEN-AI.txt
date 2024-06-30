@@ -1,0 +1,6 @@
+https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/need-more-info-about-adobe-sensei-capabilities/m-p/659319#M165125
+
+
+you can use the Adobe Sensei Content Insights API to analyze your content and generate insights that can be used to optimize your content for search engines and social media.
+
+
