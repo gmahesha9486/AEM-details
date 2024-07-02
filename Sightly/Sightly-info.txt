@@ -1,0 +1,67 @@
+To get the current page Title, Path, Depth use these code snippet
+
+Page Title: ${currentPage.title}
+Page Path: ${currentPage.Path}
+Page Depth: ${currentPage.Depth}
+
+----------------------------------
+
+To get some page properties like: jcr:title, sling:resourceType, navTitle use these.
+
+${pageProperties['jcr:title']} <br/>
+${pageProperties['sling:resourceType']} <br/>
+${pageProperties['navTitle']} <br/>
+
+
+---------------------------------
+
+Display title of child pages
+
+<ul data-sly-list="${currentPage.listChildren}">
+    <li>${item.title}</li>
+</ul> 
+
+-----------------------
+
+Display Navigation title of child pages
+
+<ul data-sly-list="${currentPage.listChildren}">
+    <li>${item.navigationTitle}</li>
+</ul>
+
+----------------
+
+data-sly-repeat
+Using this attribute, you can repeat the entire element section.
+
+
+<ul data-sly-repeat="${ currentPage.listChildren }">
+    <li>  ${item.name} </li>
+</ul>
+
+----------------------
+
+display list
+<sly data-sly-use.myModel="com.chetasmind.tutor.core.models.ListMapExample"></sly>
+
+
+<sly data-sly-test="${myModel.sportsList}">
+    <div data-sly-list.value="${myModel.sportsList}">      
+            ${value}
+    </div>
+</sly>
+
+<!--
+<sly data-sly-test="${myModel.celebrityMap}">
+    <sly data-sly-list.key="${myModel.celebrityMap}">
+        <p>key: ${key}   </p>
+        <p>value: ${myModel.celebrityMap[key]}</p>
+    </sly>
+</sly>
+-->
+
+<div data-sly-use.booksTemplate="myTemplate.html">
+   <sly data-sly-call="${booksTemplate.authorBooks @books=myModel}" />
+</div>
+
+

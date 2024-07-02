@@ -72,6 +72,15 @@ Implementing Cross-Domain Cookie Handling for Seamless API Integration
 https://medium.com/tech-learnings/implementing-cross-domain-cookie-handling-for-seamless-api-integration-9d20635081f7
 
 ------------------------
+
+AEM Articles/Blogs links
+
+https://sii.pl/blog/en/modularity-in-adobe-experience-manager/?utm_source=linkedin&utm_medium=referral&utm_campaign=SWM-21043
+https://sii.pl/blog/en/search/adobe/
+
+
+
+------------------------
 Queries, Terminologies
 
 Adobe AppBuilder

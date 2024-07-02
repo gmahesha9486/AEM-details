@@ -1,0 +1,22 @@
+AEM Tech Stalk
+
+OSGI, its lifecycle
+OSGI Container
+
+-------------
+JCR
+
+------------------------
+
+CRX
+CRXDE
+
+---------------------------
+Apache Sling
+
+Sling Adapters
+
+-------------------
+
+Jar v/s Bundle
+
