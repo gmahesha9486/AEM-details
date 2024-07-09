@@ -1,3 +1,6 @@
+https://medium.com/@toimrank/aem-sightly-3dd517f0216e
+--------------------------------
+
 To get the current page Title, Path, Depth use these code snippet
 
 Page Title: ${currentPage.title}

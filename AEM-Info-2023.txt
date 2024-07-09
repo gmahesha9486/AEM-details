@@ -4,6 +4,7 @@ mvn clean install -DskipTests
 
 mvn clean install -DskipTests -PautoInstallPackage
 
+mvn -PautoInstallPackage -Padobe-public clean install
 --------------------------
 
 get properties from jcr:content
@@ -85,4 +86,138 @@ Queries, Terminologies
 
 Adobe AppBuilder
 
+-----------------------------
 
+ 
+-----------------
+Query Builder
+ 
+https://medium.com/@manumathew28.94/query-builder-aem-5869a1850c85#:~:text=AEM%20query%20builder%20%....
+ 
+http://localhost:4502/libs/cq/search/content/querydebug.html
+path=/content/we-retail
+1_property=sling:resourceType
+1_property.value=weretail/components/content/button
+1_property.operation=like
+orderby=path
+p.limit=-1
+ 
+ 
+https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/aem-report-to-get-list-of-...
+ 
+https://adobe-consulting-services.github.io/acs-aem-commons/features/report-builder/index.html
+ 
+------------------------------------
+ 
+Dynamic Media
+ 
+earlier known as Scene7
+ 
+https://www.youtube.com/watch?v=Cz6oI6CKT8Y
+ 
+ 
+ 
+---------------------------
+AEM contacts
+aanchal-sikka  @Jörg_Hoh  @BrianKasingli 
+Raja_Reddy
+EstebanBustamante
+arunpatidar
+kautuk_sah
+lukasz-m
+Imran__khan
+Saravanan_Dharmaraj
+SureshDhulipudi
+Asutosh_Jena_
+Anmol_Bhardwaj
+VeenaVikraman
+ 
+ 
+aemgeeks1212@gmail.com
+ 
+----------------------
+Adobe Commerce, CIF
+ 
+Albin_Issac
+AEM_Forum
+shelly-goel
+Vijayalakshmi_S
+Albin_Issac
+ 
+---------------------------
+Adobe Analytics
+ 
+PratheepArunRaj
+leocwlau
+Jennifer_Dungan
+yuhuisg
+Pablo_Childe
+VaniBhemarasetty
+RaawiMahendru
+@tmj
+ 
+----------------------
+ 
+GraphQL
+ 
+Evgeny Tugarev
+Georg Henzler
+---------------------
+Linkedin contacts
+ 
+https://www.linkedin.com/in/theaemmaven/ : Juan Ayala
+https://www.theaemmaven.com/
+ 
+ 
+---------------------
+ 
+---------------------------
+ 
+Calling the 3rd party application
+ 
+in doGet method:
+String currentPagePath = request.getRequestParameter("currentPage").toString();
+String domain = request.getRequestParameter("domain").toString();
+String finalUrl = authURL + "?redirect_uri=" + redirectUri + "&client_id=" + clientID
++ "&scope=openid&response_type=code&state=" + encodedState;
+ 
+response.setContentType("text/html");
+response.getWriter().print(finalUrl);
+ 
+Note:
+JSONObject obj = new JSONObject();
+obj.put(CLIENT_ID, clientID);
+obj.put(REDIRECT_URI, redirect_uri);
+ 
+String encodedState = Base64.getEncoder().encodeToString(obj.toString().getBytes());
+ 
+------------------
+ 
+Call back servlet
+ 
+this servlet is called from 3rd party application, which sends few details to this servlet.
+doGet method
+ 
+String code = request.getParameter("code");
+String state = request.getParameter("state");
+String decodedState = new String(Base64.getUrlDecoder().decode(state));
+ 
+JSONObject jsonObj = new JSONObject(decodedState);
+String pagePath= jsonObj.getString("origin_uri");
+ 
+get client id,secret from config file
+JSONObject requestJson = new JSONObject();
+requestJson.put("client_id", clientID); //put all other details here
+StringEntity jsonInput = new StringEntity(requestJson.toString());
+HttpClient httpClient = getHttpClient();
+HttpPost postRequest = new HttpPost(tokenURL);
+postRequest.setEntity(jsonInput);
+httpResponse = (CloseableHttpResponse) httpClient.execute(postRequest);
+get response in json: EntityUtils.toString(response.getEntity(), "UTF-8");
+JSONObject jsonObject = new JSONObject(responseJson);
+get the id token, expires token. save it in cookie
+response.sendRedirect(pagePath);
+ 
+-----------------
+ 
+ 

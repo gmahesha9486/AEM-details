@@ -1,0 +1,61 @@
+https://chetasmind.com/aem/sling-models-in-aem
+
+
+@Model(adaptables = {Resource.class,SlingHttpServletRequest.class},
+defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+public class HelloWorldModel {
+ 
+
+    @SlingObject
+    private Resource currentResource;
+    
+    @SlingObject
+    private ResourceResolver resourceResolver;
+    
+    @ValueMapValue
+    @Named("myText")
+    private String textVal;
+    
+    @OSGiService
+    private TestService testService; // This is custom service class
+    
+    @OSGiService
+    protected ModelFactory modelFactory;
+    
+    @SlingObject
+    private SlingHttpServletRequest slingHttpServletRequest;
+    
+    @ScriptVariable
+    private Page currentPage;   
+    
+    @ScriptVariable
+    private PageManager pageManager;
+    
+    @ScriptVariable
+    private Style currentStyle;
+    
+    private final Logger logger = LoggerFactory.getLogger(getClass());
+    
+    
+    private String message;
+
+    @PostConstruct
+    protected void init() {
+        PageManager pageManager = resourceResolver.adaptTo(PageManager.class);
+        String currentPagePath = Optional.ofNullable(pageManager)
+                .map(pm -> pm.getContainingPage(currentResource))
+                .map(Page::getPath).orElse("");
+
+        message = "Hello World!\n"
+        	+ "textVal is:  " + textVal
+            + "Current page is:  " + currentPagePath + "\n";
+        
+        logger.debug("currentPage path="+currentPage.getPath());
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+}
+

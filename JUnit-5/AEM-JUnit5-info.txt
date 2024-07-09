@@ -1,0 +1,21 @@
+https://www.youtube.com/watch?v=g5x6F8bUHj8
+
+http://localhost:4502/content/chetasmind/us/en/jcr:content/root/container/container/author.infinity.json
+
+https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/junit-test-fails-with-saxnotrecognizedexception-while-loading/td-p/447234
+
+In cloud instance, adding <dependency> <groupId>xerces</groupId> <artifactId>xercesImpl</artifactId> <version>2.12.2</version> <scope>test</scope> </dependency> does not work for me.
+Changing version from 4.1.8 to 4.1.0 in root pom makes it work for me. 
+
+<dependency>
+    <groupId>io.wcm</groupId>
+    <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
+    <!--                <version>4.1.8</version>-->
+    <version>4.1.0</version>
+    <scope>test</scope>
+</dependency>
+-------------------
+
+Note:
+use registerService for registering services.
+

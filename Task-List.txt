@@ -1,0 +1,10 @@
+connect to 3rd party api from java
+cover all sightly code
+junit5 for sling model, service, servlet
+remote debugging from eclipse
+string to json format
+read json file from DAM location
+jackson
+SonarQube on eclipse
+Adobe Pipeline for prod deployment
+Read json file from DAM
