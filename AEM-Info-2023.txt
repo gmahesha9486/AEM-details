@@ -28,6 +28,8 @@ Article obj = res.adaptTo(Article.class);
 check for Sling Model Factory
 	
 ------------------------------
+
+
 AEM Useful Links
 
 SSO
@@ -75,6 +77,10 @@ https://medium.com/tech-learnings/implementing-cross-domain-cookie-handling-for-
 ------------------------
 
 AEM Articles/Blogs links
+
+
+To the New
+Bounteous
 
 https://sii.pl/blog/en/modularity-in-adobe-experience-manager/?utm_source=linkedin&utm_medium=referral&utm_campaign=SWM-21043
 https://sii.pl/blog/en/search/adobe/
@@ -157,7 +163,12 @@ RaawiMahendru
 @tmj
  
 ----------------------
- 
+
+Adobe Target
+https://www.linkedin.com/in/bhavaya-tyagi/
+
+
+----------------------- 
 GraphQL
  
 Evgeny Tugarev
