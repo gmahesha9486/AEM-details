@@ -29,7 +29,12 @@ check for Sling Model Factory
 	
 ------------------------------
 
+Introducing the AEM Tag Status Checker Tool! 🚀
 
+Have you ever worked with creating 100s of AEM tags and missed publishing some, but you have to manually checking each tag one by one? 😩 Say goodbye to that tedious process!
+
+
+-----------------------------------
 AEM Useful Links
 
 SSO
@@ -39,7 +44,13 @@ Author: A H M Imrul Hasan
 
 Search Feature
 https://medium.com/activate-aem/enhancing-aem-lucene-search-advanced-techniques-for-improved-search-functionality-part-1-effbbc4ab5e9
+Enhancing AEM Lucene Search
 
+
+-------------------------------------
+
+Performance
+https://exadel.com/news/backend-issues-in-aem-performance/
 
 
 AEM on-prem to cloud
@@ -79,7 +90,7 @@ https://medium.com/tech-learnings/implementing-cross-domain-cookie-handling-for-
 AEM Articles/Blogs links
 
 
-To the New
+https://www.tothenew.com/blog/tag/aem/
 Bounteous
 
 https://sii.pl/blog/en/modularity-in-adobe-experience-manager/?utm_source=linkedin&utm_medium=referral&utm_campaign=SWM-21043
@@ -91,6 +102,9 @@ https://sii.pl/blog/en/search/adobe/
 Queries, Terminologies
 
 Adobe AppBuilder
+Adobe Workfront Core Developer
+AEM Forms
+
 
 -----------------------------
 
@@ -140,6 +154,8 @@ VeenaVikraman
  
  
 aemgeeks1212@gmail.com
+
+Rajasekhar Reddy: Sapient: https://www.linkedin.com/in/rajasekhar-reddy-239a892b3/
  
 ----------------------
 Adobe Commerce, CIF
@@ -231,4 +247,32 @@ response.sendRedirect(pagePath);
  
 -----------------
  
- 
+Java 8, 11 features in AEM
+
+https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/use-of-optional-nullable-in-aem/m-p/656799#M164523
+
+String currentPagePath = "/content/abc/us/en";
+Resource resource = resourceResolver.getResource(currentPagePath);
+     
+String templateName= Optional.ofNullable(resource.adaptTo(Page.class).getTemplate().getPath()).orElse("");
+String pageTitle= Optional.ofNullable(resource.adaptTo(Page.class).getTitle()).orElse("");
+
+
+https://kiransg.com/2021/11/22/aem-with-java-streams/
+
+if (Objects.nonNull(resource)) {
+  resource.getValueMap().get("myproperty", StringUtils.EMPTY);
+}
+
+
+
+Optional < Resource > res = Optional.ofNullable(resource);
+if (res.isPresent()) {
+    List < Resource > jam = res.stream().filter(Objects::nonNull).collect(Collectors.toList());
+}
+
+
+------------------------------------------
+
+
+

@@ -8,3 +8,6 @@ jackson
 SonarQube on eclipse
 Adobe Pipeline for prod deployment
 Read json file from DAM
+Read tags from AEM
+enhancing-json-response-dynamically-in-aem-with-sling-filters
+from dialog call the java servlet: https://unlocklearning.in/dynamic-dropdown-in-aem/
