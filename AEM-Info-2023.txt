@@ -37,6 +37,10 @@ Have you ever worked with creating 100s of AEM tags and missed publishing some, 
 -----------------------------------
 AEM Useful Links
 
+AEM Augs events
+https://aem-augs.adobe.com/aem-champion-office-hours/
+
+
 SSO
 https://medium.com/@imrul001/comprehensive-guide-setting-up-saml-sso-between-keycloak-and-aem-0b134cdaac58
 Author: A H M Imrul Hasan
