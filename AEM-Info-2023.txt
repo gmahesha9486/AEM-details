@@ -51,6 +51,9 @@ https://medium.com/activate-aem/enhancing-aem-lucene-search-advanced-techniques-
 Enhancing AEM Lucene Search
 
 
+How to Configure Components Efficiently in AEM with Parameterized Namespace include
+https://www.tothenew.com/blog/how-to-configure-components-efficiently-in-aem-with-parameterized-namespace-include/
+
 -------------------------------------
 
 Performance
